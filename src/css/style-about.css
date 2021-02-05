@@ -1,0 +1,11 @@
+.main-about-resume {
+  width: 550px;
+  height: 370px;
+  padding: 15px;
+  background-color: #DCDCDC;
+  margin-left: 200px;
+  margin-top: 60px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 13px;
+  text-align: justify;
+}

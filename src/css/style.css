@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  color: black;
 }
 .header {
   /* width: 100%; */
@@ -55,7 +56,6 @@
   border-style: dashed;
   border-width: 3px;
   border-color: black;
-  cursor: pointer;
 }
 
 .left {
