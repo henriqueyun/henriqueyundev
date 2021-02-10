@@ -7,38 +7,66 @@
   font-family: 'Overpass Mono', monospace;
   border-radius: 50px 15px;
   padding: 5px;
+  float: left;
 }
 
-/* .heat-caption {
-  width: 30px;
+.to-learn-skills {
+  width: 500px;
   height: 300px;
-  background-image: linear-gradient(to top, #b366ff, #a64dff, #9933ff, #8c1aff, #8000ff, #7300e6, #6600cc, #5900b3, #4d0099, #400080, #330066, #26004d, #1a0033, #0d001a);
-  margin-left: 25px;
-  margin-top: 25px;
-} */
+  background-color: #C0C0C0;
+  margin-right: 120px;
+  margin-top: 80px;
+  font-family: 'Overpass Mono', monospace;
+  border-radius: 15px 50px;
+  padding: 5px;
+  float: right;
+  overflow: hidden;
+}
 
 .skill-tag {
   height: 15px;
-  background-color: #400080;
   border-radius: 30px;
   padding: 5px;
+  margin-left: 11px;
+  margin-top: 10px;
+  background-color: #400080;
+  border: solid 2px #26004d;
+  text-shadow: 1px 0px black;
+  color: #a64dff;
   float: left;
   display: flex;
   align-items: center;
-  margin-left: 11px;
-  margin-top: 10px;
-  border: solid 2px #26004d;
-  color: #a64dff;
-  text-shadow: 1px 0px black;
 }
+
 .skill-tag:hover{
   opacity: 0.7;
+}
+
+.skill-to-learn {
+  height: 15px;
+  border-radius: 30px;
+  padding: 5px;
+  margin-left: 11px;
+  margin-top: 10px;
+  background-color: #00802b;
+  border: solid 2px #004d1a ;
+  text-shadow: 1px 0px black;
+  color: #4dff88;
+  float: left;
+  display: flex;
+  align-items: center;
+  animation: pass 7s linear infinite;
+}
+
+@keyframes pass {
+  0%   { transform: translate(0, 800%); }
+  100% { transform: translate(0, -1000%); }
 }
 
 .color-test {
   width: 100%;
   height: 40px;
-  /* background-color: red; */
+  background-color: red;
   float: left;
   font-size: 26px;
   text-align: center;
