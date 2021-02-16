@@ -10,18 +10,38 @@
   float: left;
 }
 
-.to-learn-skills {
+/*  sustenta a caixa e o titúlo da direita */
+.rigth-side {
+  height: 360px;;
+  width: 600px;
+  /* background-color: lime; */
+  float: right;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+.words-box {
   width: 500px;
   height: 300px;
   background-color: #C0C0C0;
-  margin-right: 120px;
-  margin-top: 80px;
+  /* margin-right: 120px; */
   font-family: 'Overpass Mono', monospace;
   border-radius: 15px 15px 15px 15px;
   padding: 5px;
   float: right;
   overflow: auto;
+
 }
+
+.words-title {
+  width: 500px;
+  /* background-color: red; */
+  float:right;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 26px;
+  text-align: right;
+}
+
 
 .skill-tag {
   height: 15px;
@@ -38,12 +58,20 @@
   align-items: center;
 }
 
-.skill-to-learn {
-  height: 8px;
+.skill-tag:hover {
+  opacity: 0.7;
+}
+
+
+.word-tag {
+  /* height: 8px; */
+  height: 15px;
   border-radius: 30px;
   padding: 5px;
-  margin-left: 7px;
-  margin-top: 7px;
+  /* margin-left: 7px;
+  margin-top: 7px; */
+  margin-left: 11px;
+  margin-top: 10px;
   background-color: #00802b;
   border: solid 1px #004d1a ;
   text-shadow: 1px 0px black;
@@ -53,19 +81,19 @@
   align-items: center;
 }
 
-.skill-tag:hover{
+.word-tag:hover {
   opacity: 0.7;
 }
 
-.skill-to-learn:hover {
-  opacity: 0.7;
-}
-.color-test {
-  width: 100%;
-  height: 40px;
-  /* background-color: red; */
+
+/* left side */
+.left-side {
+  height: 360px;;
+  width: 500px;
+  border-color: black;
+  border-style: dashed;
+  border-width: 3px;
   float: left;
-  font-size: 26px;
-  text-align: center;
-  padding-top: 25px;
+  margin-left: 140px;
+  margin-top: 120px;
 }
