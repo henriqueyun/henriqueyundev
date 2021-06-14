@@ -1,0 +1,99 @@
+.main-skills {
+  width: 500px;
+  height: 400px;
+  background-color: #D0D0D0;
+  /* margin-left: 100px; */
+  margin-top: 50px;
+  font-family: 'Overpass Mono', monospace;
+  border-radius: 50px 15px;
+  padding: 5px;
+  float: left;
+}
+
+/*  sustenta a caixa e o titúlo da direita */
+.know-box {
+  width: 800px;
+  /* background-color: lime; */
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.words-box {
+  width: 350px;
+  /* background-color: red; */
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.words-title {
+  width: 500px;
+  background-color: red;
+  float:right;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 26px;
+  text-align: right;
+}
+
+
+.skill-tag {
+  height: 15px;
+  border-radius: 30px;
+  padding: 5px;
+  margin-left: 11px;
+  margin-top: 10px;
+  background-color: #400080;
+  border: solid 2px #26004d;
+  text-shadow: 1px 0px black;
+  color: #a64dff;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.skill-tag:hover {
+  opacity: 0.7;
+}
+
+
+.word-tag {
+  /* height: 8px; */
+  height: 15px;
+  border-radius: 30px;
+  padding: 5px;
+  /* margin-left: 7px;
+  margin-top: 7px; */
+  margin-left: 11px;
+  margin-top: 10px;
+  background-color: #00802b;
+  border: solid 1px #004d1a ;
+  text-shadow: 1px 0px black;
+  color: #4dff88;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.word-tag:hover {
+  opacity: 0.7;
+}
+
+
+/* left side */
+.left-side {
+  height: 360px;;
+  width: 500px;
+  border-color: black;
+  border-style: dashed;
+  border-width: 3px;
+  float: left;
+  /* margin-left: 140px; */
+  margin-top: 120px;
+}
