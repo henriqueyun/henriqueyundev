@@ -4,8 +4,8 @@ function buildGitHistoryTable (repos) {
     let repoLine = table.insertRow(1);
     let repoName = repoLine.insertCell(0);
     let repoLang = repoLine.insertCell(1);
-    repoName.innerHTML = repo.name
-    repoLang.innerHTML = repo.language || 'Não há'
+    repoName.innerHTML = `<a target="_blank" href="${repo.svn_url}">${repo.name}</span>`
+    repoLang.innerHTML = `<span class="word-tag">${repo.language || '[Nenhuma]'} </span>`
   });
 }
 
@@ -20,7 +20,7 @@ function getGitReposHistory (callback) {
     repos.sort((repoA, repoB) => {
       return Date.parse(repoB.updated_at) - Date.parse(repoA.updated_at);
     })
-    callback(repos)
+    callback(repos.slice(0,5))
   };
 }
 
